@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Convert currency</title>
+</head>
+<body>
+  <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+
+    <div class="form__select-box">
+      <select class="form__select" name="User select">
+        <option value="Currency" disabled selected>Currency</option>
+        <option value="10869">UZS</option>
+        <option value="0.88">EURO</option>
+        <option value="80.3">RU</option>
+      </select>
+      <input class="form__input" type="number" name="User money" placeholder="place your amount of money in USD">
+    </div>
+
+    <button class="form__btn" type="submit">
+      Check
+    </button>
+
+    <div class="form__subbox">
+      <p class="user__text"></p>
+    </div>
+
+  </form>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
